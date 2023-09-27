@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - BigHead Solutions LLC</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/contact">Contact</a></li>
+                <li><a href="/it-tools">IT Tools</a></li>
+                <li><a href="/diy">DIY</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="main-section">
+        <h1>Contact Us</h1>
+        <p>Get in touch with us using the form below:</p>
+        <form method="POST" action="/contact">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2022 BigHead Solutions LLC. All rights reserved.</p>
+    </footer>
+</body>
+</html>
