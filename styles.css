@@ -1,0 +1,26 @@
+'''
+This is the CSS file for the website. It contains the styles for the website, including the black and white color scheme and modern, approachable design.
+'''
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+header {
+    background-color: white;
+    color: black;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: grey;
+}

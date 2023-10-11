@@ -1,0 +1,32 @@
+'''
+This is the contact us page of the website. It contains an interactive chat option or email using form submission. The chat option does not exist as a webapp yet, so a placeholder is used for it on this page.
+'''
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - BigHead Solutions</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <main>
+        <h2>Chat with Us</h2>
+        <div id="chat-placeholder">
+            <!-- This is where the chat app will go -->
+        </div>
+        <h2>Email Us</h2>
+        <form action="submit_form" method="post">
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy; 2022 BigHead Solutions</p>
+    </footer>
+</body>
+</html>
