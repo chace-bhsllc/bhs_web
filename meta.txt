@@ -1,0 +1,30 @@
+Task:
+I run an IT managed service llc named BigHead Solutions LLC. I need a new website to be hosted on Azure and will be repo-ed in, maintained from, and deployed from Azure DevOps. Please create the website in a format that will be easily imported into Azure DevOps. Please create demo logos and banners for BigHead Solutions and BHS and place them where they will be most effective for website visitors. Ensure that the website is as secure as possible, allows verbose logging, and deployment details are written so explicitly that someone with no IT experience could deploy this website to Azure using Azure DevOps. The major color scheme should be black and white, and be impressive visually (modern) but approachable. It should be created using HTML5 and CSS and will contain embedded WebApps built on Python and Javascript (These apps currently do not exist, so placeholders should be made). There will be several pages on the website. 1.) a main page with a overview of the company (specialize in cloud, automation, and development for small businesses) as well as a very fluid menu for navigating to other areas of the website. Please include placeholders for social media where appropriate (LinkedIn, GitHub, Facebook, X/Twitter, Instagram, Threads, and TikTok) as well as a link to our ticketing system, Atera, using http://support.bighead-it.com. 2.) a contact us page with an interactive chat option or email using form submission (the chat option does not exist as a webapp yet, please use a placeholder for it on this page). 3.) A page listing sbpages for IT tool offerings such as asubnet calculator based on user input, a tech dictionary to search and understand common terms used in tech, an it security aggregator that allows you to view breaches and vulnerabilities as they are discovered, a hex/binary/ascii converter that converts user input, a shell interpreter that allows you to enter bash code and breaks down what commands and flags do, a similar interpreter for python, a similar interpreter for JavaScript, and a similar interpreter for PowerShell (these do not exist as webapp yets, please use placeholders for it on this page). 4.) A DIY page, which will require a username and password (the DIY subscription/login function does not exist as a webapp yet, please use a placeholder for it on this page). The DIY page will contain IT basics and training that small businesses can review if they are between needing help but not able to afford an MSP.
+
+Config:
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+website
+
+Ideas:
+
+
+Language:
+ HTML5, CSS, JavaScript, Python
+
+Code_Version:
+5.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+2
+
